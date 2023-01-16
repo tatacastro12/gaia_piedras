@@ -1,12 +1,11 @@
 import React from 'react'
-import {  } from "./Header.scss";
-
+import "./Header.scss"
 
 const Header = () => {
   return (
-    <header>
-      Cabecera de la página
-    </header>
+    <div>
+    <h1>Header</h1>
+    </div>
   )
 }
 

@@ -1,11 +1,10 @@
 import React from 'react'
-import {  } from "./Footer.scss";
 
 const Footer = () => {
   return (
-    <footer>
-      Información en el pie de página
-    </footer>
+    <div>
+    <h1>Footer</h1>
+    </div>
   )
 }
 
