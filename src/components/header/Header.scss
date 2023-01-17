@@ -8,7 +8,7 @@
   
   header {
     width: 100%;
-    background-color: var(--dark-blue);
+    background-color: blue;
     color: rgb(154, 145, 33);
   
     .header {
@@ -28,7 +28,7 @@
       color: #fff;
       cursor: pointer;
       span {
-        color: orangered;
+        color: rgb(172, 182, 32);
       }
     }
   
@@ -156,7 +156,7 @@
           .cart {
             // display: block;
             // padding: 5px 0;
-            border-bottom: 1px solid #333;
+            border-bottom: 1px solid rgb(150, 125, 191);
             // a {
             //   position: relative;
             //   p {
@@ -174,7 +174,7 @@
               display: block;
               margin: 0;
               padding: 5px 0;
-              border-bottom: 1px solid #333;
+              border-bottom: 1px solid rgb(162, 144, 193);
             }
           }
         }

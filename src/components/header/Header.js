@@ -1,20 +1,51 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import "./Header.scss";
+
+const Logo = (
+  <div className="logo">
+    <div>
+      <Link to="/">
+        <h2>
+          G <span>aia</span>.
+        </h2>
+      </Link>
+    </div>
+  </div>
+);
 
 const Header = () => {
   return (
-    <Header className="header">
-      <div className="logo">
-        <div>
-          <Link to="/">
-            <h2>
-              G <span>aia</span>.
-            </h2>
-          </Link>
-        </div>
-      </div>
-    </Header>
+    <>
+      <header className="Header">
+        {Logo}
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact Us</Link>
+            </li>
+
+          </ul>
+          <div className="[header-right]">
+            <span className="links">
+            <Link to= "/Login">Login</Link>
+            <Link to= "/register">Register</Link>
+            <Link to= "/order">My Order</Link>
+            </span>
+            <span className= "cart">
+            <Link to= "/cart">
+              Cart
+            </Link>
+
+            </span>
+          </div>
+        </nav>
+      </header>
+      <Outlet />
+    </>
   );
 };
 
