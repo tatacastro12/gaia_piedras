@@ -40,7 +40,7 @@ const Header = () => {
             <Link to= "/cart">
               Cart 
 
-              <FiShoppingCart/>
+              <FiShoppingCart size={20}/>
             </Link>
 
             </span>
