@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
 import "./Header.scss";
+import { FiShoppingCart } from "react-icons/fi";
 
 const Logo = (
   <div className="logo">
@@ -37,7 +38,9 @@ const Header = () => {
             </span>
             <span className= "cart">
             <Link to= "/cart">
-              Cart
+              Cart 
+
+              <FiShoppingCart/>
             </Link>
 
             </span>
