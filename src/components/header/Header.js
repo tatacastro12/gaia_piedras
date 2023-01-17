@@ -5,11 +5,11 @@ import "./Header.scss";
 const Header = () => {
   return (
     <Header className= "header" >
+        <div className='logo'>
         <div>
-        <div>
-        <Link>
+        <Link to="/">
           <h2>
-            Gaia
+          G <span>aia</span>.
           </h2>
         </Link>
 
