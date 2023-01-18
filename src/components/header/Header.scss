@@ -9,7 +9,7 @@
 header {
   width: 100%;
   background-color: goldenrod;
-  color: #fff;
+  color: rgb(10, 9, 9);
 
   .header {
     width: 100%;
@@ -25,10 +25,10 @@ header {
 
   .logo a h2 {
     width: 25%;
-    color: #fff;
+    color: rgb(12, 12, 12);
     cursor: pointer;
     span {
-      color: orangered;
+      color: orange;
     }
   }
 
@@ -48,9 +48,9 @@ header {
       li {
         margin: 0 5px;
         a {
-          color: #fff;
+          color: rgb(8, 0, 0);
           &:hover {
-            color: orangered;
+            color: whitesmoke
           }
         }
       }
@@ -62,13 +62,13 @@ header {
 
     .cart a {
       display: flex;
-      color: #fff;
+      color: rgb(14, 1, 1);
       position: relative;
       &:hover {
-        color: orangered;
+        color: whitesmoke;
       }
       &.active {
-        color: var(--color-danger);
+        color: gold;
       }
       p {
         position: absolute;
@@ -82,18 +82,18 @@ header {
       margin: 0 5px;
 
       p {
-        color: #fff;
+        color: rgb(11, 11, 11);
       }
     }
 
     .links a {
       margin: 0 5px;
-      color: #fff;
+      color: rgb(8, 8, 8);
       &:hover {
-        color: orangered;
+        color: whitesmoke;
       }
       &.active {
-        color: var(--color-danger);
+        color: gold;
       }
     }
   }
@@ -184,17 +184,17 @@ header {
       padding: 5px 0;
       // border-bottom: 1px solid #333;
       a {
-        color: #fff;
+        color: rgb(14, 14, 14);
         position: relative;
         &:hover {
-          color: orangered;
+          color: whitesmoke;
         }
         p {
           position: absolute;
           top: -1rem;
           left: 5rem;
           font-weight: 500;
-          color: #fff;
+          color: rgb(6, 6, 6);
         }
       }
     }
