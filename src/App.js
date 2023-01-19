@@ -1,10 +1,12 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Admin from "./pages/admin/Admin";
 //pages
-import { Home, Contact } from "./pages/";
+import { Home, Contact, Login, Register, Reset  } from "./pages/";
 //componets
 import { Footer, Header } from "./components/";
+
+
+
 
 function App() {
   return (
@@ -14,7 +16,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/admin" element={<Admin />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/reset" element={<Reset />} />
         </Routes>
         <Footer />
       </BrowserRouter>
