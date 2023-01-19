@@ -4,12 +4,13 @@ import "./Header.scss";
 import { FaShoppingCart, FaTimes } from "react-icons/fa";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 
+
 const Logo = (
-  <div className="logo">
+  <div className="logo">    
     <div>
       <Link to="/">
-        <h2>
-          G <span>aia</span>.
+      <h2>
+          Gaia<span>Piedras</span>.
         </h2>
       </Link>
     </div>

@@ -2,7 +2,7 @@
 
 :root {
   --font-family: "Poppins", sans-serif;
-  --dark-blue: #0a1930;
+  --dark-golden: #daa520;
   --light-blue: #1f93ff;
 
   --color-white: #fff;
@@ -16,7 +16,7 @@
 
   --color-primary: #007bff;
   --color-success: #28a745;
-  --color-danger: orangered;
+  --color-black: #000000;
 }
 
 * {
@@ -299,7 +299,7 @@ p {
 
 .--btn-primary {
   color: #fff;
-  background: #007bff;
+  background: #daa520;
 }
 .--btn-secondary {
   color: #fff;

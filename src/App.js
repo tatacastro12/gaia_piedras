@@ -1,4 +1,6 @@
 import React from "react";
+import "./index.css"
+
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 //pages
 import { Home, Contact, Login, Register, Reset  } from "./pages/";
