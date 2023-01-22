@@ -1,5 +1,5 @@
-import React from 'react'
-import {  } from "./OrderHistory.scss";
+
+import  "./OrderHistory.scss";
 
 const OrderHistory = () => {
   return (

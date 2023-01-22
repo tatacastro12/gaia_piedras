@@ -1,18 +1,16 @@
-import React from 'react'
-import './Loader.scss'
-import { gaiaImg } from "../assets/Gaia.gif";
-import ReactDOM from 'react-dom'
-
-
+import styles from "./Loader.scss";
+import loaderImg from "../assets/loader.gif";
+import ReactDOM from "react-dom";
 
 const Loader = () => {
-  return ReactDOM.createPortal (
-    <div className='wrapper'>
-        <div className='loader'></div>
-        <img src={gaiaImg} alt="Loading..."/>
+  return ReactDOM.createPortal(
+    <div className={styles.wrapper}>
+      <div className={styles.loader}>
+        <img src={loaderImg} alt="Loading..." />
+      </div>
     </div>,
-    document.getElementById("Gaia")
-  )
-}
+    document.getElementById("loader")
+  );
+};
 
-export default Loader
+export default Loader;
