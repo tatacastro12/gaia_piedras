@@ -39,6 +39,7 @@ const Register = () => {
   };
 
   return (
+    
     <>
       {isLoading && <Loader />}
       <section className="container auth">
